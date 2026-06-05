@@ -1,0 +1,96 @@
+{
+  "run_id": "tier1-monday-20260413T193720",
+  "results": [
+    {
+      "i": 2,
+      "to": "info@villagerealtyobx.com",
+      "ok": true,
+      "messageId": "19d88593830f571c",
+      "threadId": "19d88593830f571c"
+    },
+    {
+      "i": 3,
+      "to": "vacations@resortrealty.com",
+      "ok": true,
+      "messageId": "19d88593a2e50e06",
+      "threadId": "19d88593a2e50e06"
+    },
+    {
+      "i": 4,
+      "to": "rentals@carolinadesigns.com",
+      "ok": true,
+      "messageId": "19d88593b515e6d3",
+      "threadId": "19d88593b515e6d3"
+    },
+    {
+      "i": 5,
+      "to": "sunservices@sunrealtync.com",
+      "ok": true,
+      "messageId": "19d88593d2ab6a1a",
+      "threadId": "19d88593d2ab6a1a"
+    },
+    {
+      "i": 6,
+      "to": "sales@seasiderealty.com",
+      "ok": true,
+      "messageId": "19d88593ca09ffc1",
+      "threadId": "19d88593ca09ffc1"
+    },
+    {
+      "i": 7,
+      "to": "info@kotarides.com",
+      "ok": true,
+      "messageId": "19d88593e1d926f6",
+      "threadId": "19d88593e1d926f6"
+    },
+    {
+      "i": 8,
+      "to": "dale@roseandwomble.com",
+      "ok": true,
+      "messageId": "19d8859412d9ef39",
+      "threadId": "19d8859412d9ef39"
+    },
+    {
+      "i": 9,
+      "to": "info@rwtowne.com",
+      "ok": true,
+      "messageId": "19d8859420105ce7",
+      "threadId": "19d8859420105ce7"
+    },
+    {
+      "i": 10,
+      "to": "tmrealty@tmrealty.com",
+      "ok": true,
+      "messageId": "19d885944d34308e",
+      "threadId": "19d885944d34308e"
+    },
+    {
+      "i": 11,
+      "to": "chris.todd@cbre.com",
+      "ok": true,
+      "messageId": "19d885946f340822",
+      "threadId": "19d885946f340822"
+    },
+    {
+      "i": 12,
+      "to": "chris.rouzie@thalhimer.com",
+      "ok": true,
+      "messageId": "19d885946451fdf4",
+      "threadId": "19d885946451fdf4"
+    },
+    {
+      "i": 13,
+      "to": "information@naidominion.com",
+      "ok": true,
+      "messageId": "19d8859481a2202f",
+      "threadId": "19d8859481a2202f"
+    },
+    {
+      "i": 14,
+      "to": "bspencer@midatlanticcommercial.com",
+      "ok": true,
+      "messageId": "19d88594be698f8e",
+      "threadId": "19d88594be698f8e"
+    }
+  ]
+}

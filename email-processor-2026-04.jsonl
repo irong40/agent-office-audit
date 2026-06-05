@@ -50,3 +50,12 @@
 {"ts": "2026-04-15T21:57:46Z", "event": "label_summary", "labels_applied": 0, "labels_logged": 0, "run_id": "7244c5d9-3b7c-443c-a938-dcd9341279a7"}
 {"ts":"2026-04-16T14:54:06Z","event":"digest_write","file":"agent-office/reports/2026-04-16-email-digest.md","emails_processed":4,"bounces":2,"run_id":"ff6da14e-4983-4cad-8d75-edcf58d6ec4a"}
 {"ts":"2026-04-16T14:54:06Z","event":"label_summary","labels_applied":0,"labels_logged":0,"run_id":"ff6da14e-4983-4cad-8d75-edcf58d6ec4a"}
+{"ts": "2026-04-21T14:02:35Z", "event": "digest_write", "file": "agent-office/reports/2026-04-21-email-digest.md", "emails_processed": 0, "drafts_created": 0, "run_id": "e56b0779-bbc7-4c1d-85ac-765881177d7f"}
+{"ts": "2026-04-21T14:02:35Z", "event": "label_summary", "labels_applied": 0, "labels_logged": 0, "run_id": "e56b0779-bbc7-4c1d-85ac-765881177d7f"}
+{"ts": "2026-04-21T14:22:49Z", "event": "digest_write", "file": "agent-office/reports/2026-04-21-email-digest.md", "emails_processed": 3, "drafts_created": 0, "run_id": "e56b0779-bbc7-4c1d-85ac-765881177d7f"}
+{"ts": "2026-04-21T14:22:49Z", "event": "label_summary", "labels_applied": 0, "labels_logged": 0, "run_id": "e56b0779-bbc7-4c1d-85ac-765881177d7f"}
+{"ts": "2026-04-28T15:26:17Z", "event": "filesystem_write", "tool": "Write", "path": "agent-office/reports/2026-04-28-email-digest.md", "run_id": "fc2f01f8-77f4-441d-8ccf-ce3d70c75e55"}
+{"ts": "2026-04-28T15:26:17Z", "event": "label_summary", "labels_applied": 0, "labels_logged": 0, "run_id": "fc2f01f8-77f4-441d-8ccf-ce3d70c75e55"}
+{"ts": "2026-04-28T15:26:17Z", "event": "filesystem_write", "tool": "Write", "path": "agent-office/reports/2026-04-28-email-digest.md", "note": "updated with personal mailbox triage", "run_id": "fc2f01f8-77f4-441d-8ccf-ce3d70c75e55"}
+{"ts": "2026-04-28T15:26:17Z", "event": "filesystem_write", "tool": "Write", "path": "agent-office/escalations/2026-04-28-email-escalation.md", "run_id": "fc2f01f8-77f4-441d-8ccf-ce3d70c75e55"}
+{"ts": "2026-04-28T15:26:17Z", "event": "label_summary", "labels_applied": 0, "labels_logged": 0, "emails_scanned": 17, "escalations": 2, "drafts": 0, "run_id": "fc2f01f8-77f4-441d-8ccf-ce3d70c75e55"}

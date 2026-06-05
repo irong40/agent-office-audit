@@ -28,6 +28,21 @@ Files: `<agent-name>-YYYY-MM.jsonl` — one per agent per month.
 
 This pins the format so readers can detect version drift and future format changes stay diffable.
 
+## Event vocabulary
+
+Current reserved `event` values (non-tool-call lines):
+
+- `schema_version` — first line of every monthly file (see above).
+- `label_summary` — per-run rollup of Gmail label mods:
+  ```json
+  {"ts":"<iso8601>","event":"label_summary","labels_applied":42,"labels_logged":8,"run_id":"<uuid>"}
+  ```
+- `mirror_write_failed` — primary write succeeded but OneDrive mirror write failed. Written to **primary only** (no mirror retry). Mirror is best-effort; mirror failure is not fatal. Schema:
+  ```json
+  {"ts":"<iso8601>","event":"mirror_write_failed","target":"obsidian-dev/agent-office/audit/<agent>-YYYY-MM.jsonl","error":"<ErrorClassName>","primary_line":<int>,"run_id":"<run id>"}
+  ```
+  `error` = exception class name only (e.g., `PermissionError`, `OSError`) — never a stack trace. `primary_line` = 1-based line number in the primary file of the event whose mirror write failed, so auditors can diff against the mirror.
+
 ## arg_hash canonicalization
 
 ```

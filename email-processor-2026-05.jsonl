@@ -1,0 +1,5 @@
+{"ts":"2026-05-01T14:10:00Z","event":"schema_version","version":"1.0.0","agent":"email-processor","canonicalization":"python-json-sort-keys","hash_algo":"sha256","hash_truncate":16}
+{"ts":"2026-05-01T14:10:01Z","event":"filesystem_write","tool":"Write","file_path":"obsidian-dev/agent-office/reports/2026-05-01-email-digest.md","run_id":"email-processor-20260501T141000","arg_hash":"a3f1d2c8e9b047f6"}
+{"ts":"2026-05-01T14:10:02Z","event":"filesystem_write","tool":"Write","file_path":"obsidian-dev/agent-office/escalations/2026-05-01-email-escalation.md","run_id":"email-processor-20260501T141000","arg_hash":"b7e3a1f920c854d2"}
+{"ts":"2026-05-01T14:10:03Z","event":"label_summary","labels_applied":0,"labels_logged":0,"run_id":"email-processor-20260501T141000"}
+{"ts":"2026-05-27T14:15:38Z","event":"label_summary","labels_applied":0,"labels_logged":0,"run_id":"02a33be1-3131-4256-9d27-0b6ead20bfc5"}
